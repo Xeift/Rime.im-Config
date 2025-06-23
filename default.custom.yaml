@@ -1,0 +1,12 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Jun 23 08:08:41 2025"
+  rime_version: 1.13.1
+patch:
+  schema_list:
+    - {schema: bopomofo_tw}
+
+  "switcher/hotkeys":  # 〔方案選單〕的快捷鍵
+    - "Control+m"      # 新增 Ctrl+m，避免與 VSC 開啟 terminal 的快捷鍵衝突
